@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/routes"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/services"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/routes"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/services"
 	"log"
 	"net/http"
 	"os"
@@ -17,8 +17,8 @@ import (
 // @termsOfService https://swagger.io/terms/
 
 // @contact.name Ebubekir Yiğit
-// @contact.url https://github.com/ebubekiryigit
-// @contact.email ebubekiryigit6@gmail.com
+// @contact.url https://github.com/byeblogs
+// @contact.email byeblogs6@gmail.com
 
 // @license.name MIT License
 // @license.url https://opensource.org/licenses/MIT

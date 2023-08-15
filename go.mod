@@ -1,4 +1,4 @@
-module github.com/ebubekiryigit/golang-mongodb-rest-api-starter
+module github.com/byeblogs/golang-mongodb-rest-api-starter
 
 go 1.20
 

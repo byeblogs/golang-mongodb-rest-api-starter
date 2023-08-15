@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/models"
 	"github.com/spf13/viper"
 )
 

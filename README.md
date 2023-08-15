@@ -1,6 +1,6 @@
 GoLang + MongoDB + Redis RESTful Application Starter
 ----------------------------------------------------
-[![Go Report Card](https://goreportcard.com/badge/github.com/ebubekiryigit/golang-mongodb-rest-api-starter)](https://goreportcard.com/report/github.com/ebubekiryigit/golang-mongodb-rest-api-starter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/byeblogs/golang-mongodb-rest-api-starter)](https://goreportcard.com/report/github.com/byeblogs/golang-mongodb-rest-api-starter)
 
 This project is a 'Boilerplate' or 'Starter' to build RESTful
 Applications and microservices using
@@ -46,7 +46,7 @@ Clone the repository and enjoy, I strongly recommend [Jetbrains GoLand](https://
 
 ```bash
 # Clone Project
-git clone https://github.com/ebubekiryigit/golang-mongodb-rest-api-starter.git go-rest-api-starter
+git clone https://github.com/byeblogs/golang-mongodb-rest-api-starter.git go-rest-api-starter
 
 # Change Directory
 cd go-rest-api-starter
@@ -135,4 +135,4 @@ Future Work
 License
 -------
 
-[MIT License](LICENSE) - [Ebubekir Yiğit](https://github.com/ebubekiryigit)
+[MIT License](LICENSE) - [Ebubekir Yiğit](https://github.com/byeblogs)

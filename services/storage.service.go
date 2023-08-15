@@ -3,7 +3,7 @@ package services
 import (
 	"context"
 	"errors"
-	models "github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models/db"
+	models "github.com/byeblogs/golang-mongodb-rest-api-starter/models/db"
 	"github.com/go-redis/cache/v8"
 	"github.com/go-redis/redis/v8"
 	"github.com/kamva/mgm/v3"

@@ -1,7 +1,7 @@
 package middlewares
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/models"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

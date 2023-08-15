@@ -1,15 +1,16 @@
 package models
 
 import (
+	"regexp"
+
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
-	"regexp"
 )
 
 var passwordRule = []validation.Rule{
 	validation.Required,
 	validation.Length(8, 32),
-	validation.Match(regexp.MustCompile("^\\S+$")).Error("cannot contain whitespaces"),
+	validation.Match(regexp.MustCompile(`^(.{0,7}|[^0-9]*|[^A-Z]*|[^a-z]*|[a-zA-Z0-9]*)$`)).Error("cannot contain whitespaces"),
 }
 
 type RegisterRequest struct {
@@ -47,7 +48,7 @@ func (a RefreshRequest) Validate() error {
 		validation.Field(
 			&a.Token,
 			validation.Required,
-			validation.Match(regexp.MustCompile("^\\S+$")).Error("cannot contain whitespaces"),
+			validation.Match(regexp.MustCompile(`^(.{0,7}|[^0-9]*|[^A-Z]*|[^a-z]*|[a-zA-Z0-9]*)$`)).Error("cannot contain whitespaces"),
 		),
 	)
 }

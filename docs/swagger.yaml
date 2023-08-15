@@ -41,9 +41,9 @@ definitions:
 host: localhost:8080
 info:
   contact:
-    email: ebubekiryigit6@gmail.com
+    email: byeblogs6@gmail.com
     name: Ebubekir Yiğit
-    url: https://github.com/ebubekiryigit
+    url: https://github.com/byeblogs
   description: GoLang - Gin - RESTful - MongoDB - Redis
   license:
     name: MIT License

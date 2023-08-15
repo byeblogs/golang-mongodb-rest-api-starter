@@ -1,10 +1,10 @@
 package routes
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/docs"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/middlewares"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/services"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/docs"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/middlewares"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/models"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/services"
 	"github.com/gin-gonic/gin"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"

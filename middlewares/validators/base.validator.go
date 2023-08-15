@@ -1,7 +1,7 @@
 package validators
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/models"
 	"github.com/gin-gonic/gin"
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"

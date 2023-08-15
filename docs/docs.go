@@ -13,8 +13,8 @@ const docTemplate = `{
         "termsOfService": "https://swagger.io/terms/",
         "contact": {
             "name": "Ebubekir Yiğit",
-            "url": "https://github.com/ebubekiryigit",
-            "email": "ebubekiryigit6@gmail.com"
+            "url": "https://github.com/byeblogs",
+            "email": "byeblogs6@gmail.com"
         },
         "license": {
             "name": "MIT License",

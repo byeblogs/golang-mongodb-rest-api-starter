@@ -2,7 +2,8 @@ package services
 
 import (
 	"errors"
-	db "github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models/db"
+
+	db "github.com/byeblogs/golang-mongodb-rest-api-starter/models/db"
 	"github.com/kamva/mgm/v3"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

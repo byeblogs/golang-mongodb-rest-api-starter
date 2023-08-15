@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/services"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/models"
+	"github.com/byeblogs/golang-mongodb-rest-api-starter/services"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"go.mongodb.org/mongo-driver/bson/primitive"
